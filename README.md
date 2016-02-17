@@ -1,0 +1,2 @@
+# CGL-stats
+Bets stat.
