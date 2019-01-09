@@ -1,2 +1,4 @@
 # CGL-stats
-Bets stat.
+Just https://csgolounge.com/ parser.
+
+*Output into bets.txt.*
