@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CGL_stats
 {
-    class MatchInfo
+    class Match
     {
 
         //maps
