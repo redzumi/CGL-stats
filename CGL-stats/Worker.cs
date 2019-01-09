@@ -1,9 +1,10 @@
-﻿using HtmlAgilityPack;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+using HtmlAgilityPack;
 
 namespace CGL_stats
 {
@@ -118,6 +119,8 @@ namespace CGL_stats
 
             HtmlAgilityPack.HtmlDocument rawDoc = new HtmlAgilityPack.HtmlDocument();
             rawDoc.LoadHtml(rawHtml);
+
+            Utils.log(rawHtml);
 
             foreach (HtmlNode rawMatch in rawDoc.DocumentNode.SelectNodes("//div[@class='matchmain']"))
             {
